@@ -1,0 +1,420 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A6B9EB;
+
+}
+header {
+    background-color: #2E447C;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 50px;
+    float: right;
+    margin: 10px 20px 10px 10px;
+    padding: 0;
+}
+nav {
+    padding-left: 30px;
+    margin-right: auto;
+    
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+nav a:hover{
+    color: #bbceff;
+}
+
+.login-btn {
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: #45a049;
+}
+.slider {
+    width: 80%;
+    margin: 20px;
+    position: relative;
+}
+.slide {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.slide img {
+    width: 70%;
+    height: 700PX;
+    border-radius: 15px;
+}
+footer {
+    background-color: #2E447C;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+footer img{
+width: 30px;
+height: 30px;
+}
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+footer ol{
+    font-size: 20px;
+    padding: 10px;
+    vertical-align:middle;
+}
+.slide-btn{
+
+    text-align: center;
+    border-radius: 100px;  
+}
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-btn {
+  background-color: #2E447C;
+  color: white;
+  border: none;
+  border-radius: 500px;
+  padding: 10px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slide-btn:hover {
+  background-color: #3F66CA;
+}
+
+.text-slide {
+    background-color: #2E447C;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 100px;
+  padding: 15px 150px;
+  border-radius: 300px;
+}
+.slide-btn img{
+    width: 30px;
+    height: 30px;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    color: white;
+    width: 700px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #3F66CA;
+    border-radius: 15px;
+}
+
+.block img {
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.block p {
+    margin: 10px 0;
+}
+
+.block button {
+    background-color: #2E447C;
+    color: #fff;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.block button:hover {
+    background-color: #A6B9EB;
+    color:#2E447C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.giver{
+
+    display: flex;
+}
+.znaki{
+    color: rgb(235, 235, 235);
+    background-color: #3F66CA;
+    padding: 10px;
+}
+.znaki img{
+    width: 450px;
+    height: 220px;
+    border-radius: 5px;
+    float: left; /* Выравнивание по правому краю  */ 
+    margin: 10px 15px 10px 10px; /* Отступы вокруг картинки */
+}
+.polit p{
+    opacity: 0.5;
+    font-size: 20px;
+}
+.polit p:hover{
+    opacity: 1;
+}
+footer p{
+    opacity: 0.5;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Add styles for slider dots */
+.slider-dots {
+    text-align: center;
+    padding: 15px;
+}
+
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #3F66CA;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.dot.active {
+    background-color: #2E447C;
+}
+
+.login-btn {
+    background-color: #3F66CA;
+    color: #fff;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    background-color: #A6B9EB;
+    color:#2E447C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.znak-btn{
+        background-color: #2E447C;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .znak-btn:hover {
+        background-color: #3F66CA;
+      }
+
+h3{
+    margin: 0;
+}
+h4{
+    margin: 10px 0px 10px 0px;
+}
+.slide-text {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.slide p{
+    border-radius: 10px;
+    margin: 0;
+    background-color: #2E447C;
+}
+
+.welcome-block {
+    background-color: #3F66CA;
+    padding: 40px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.welcome-block h1 {
+    color: #ffffff;
+}
+
+.welcome-block p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);      
+    }
+}
+@media screen and (max-width: 1024px) {   /* Пример изменения размеров текста */
+    body {
+        font-size: 14px;
+    }
+
+    /* Пример скрытия некоторых элементов */
+    .slide img {
+        width: 70%;
+        height: 500PX;
+        border-radius: 15px;
+    }
+
+    /* Пример переупорядочивания элементов */
+    .header {
+        flex-direction: column;
+    }
+
+    /* Пример изменения размеров изображений */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .giver{
+
+        display: flex;
+        max-height: 700px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {   /* Пример изменения размеров текста */
+    body {
+        font-size: 14px;
+    }
+
+    /* Пример скрытия некоторых элементов */
+    .slide img {
+        width: 70%;
+        height: 300PX;
+        border-radius: 15px;
+    }
+    
+    .slide-btn img{
+        width: 5px;
+        height: 5px;
+    }
+    /* Пример переупорядочивания элементов */
+    .header {
+        flex-direction: column;
+    }
+
+    /* Пример изменения размеров изображений */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Пример изменения размера текста для заголовков */
+    h1 {
+        font-size: 24px;
+    }
+
+    /* Пример скрытия некоторых элементов */
+    .slider-container {
+        display: none;
+    }
+    .block p{
+        display: none;
+    }
+    .welcome-block{
+        padding: 10px;
+        margin: 10px;
+    }
+    .welcome-block p{
+        display: none;
+    }
+    .welcome-block h1{
+        font-size: 12px;
+    }
+    .giver{
+        display: none;
+    }
+    /* Пример изменения размеров изображений */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    header{
+        width: 320px;
+    }
+    header a{
+        float: left;
+        font-size: 10px;
+    }
+    .navigacia,.polit{
+        display: none;
+    }
+    .login-btn{
+        font-size: 8px;
+        width: 25px;
+        background-color: none;
+        text-align: center;
+    }
+    header img{
+        display: none;
+    }
+    .content p{
+        opacity: 1;
+        font-size: 16px;
+        float: left;
+    }
+}

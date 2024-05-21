@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylereg.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Вход в личный кабинет</h2>
+        <form>
+          <label for="email">Почта:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="login">Логин:</label>
+          <input type="text" id="login" name="login" pattern="[A-Za-z0-9]+" required>
+          
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" minlength="8" required>
+          <a href="reg.html" style="text-decoration: none;" >Регистрация</a>
+          <div class="checkboxFlex" style="display: flex; text-align: left;">
+            <input class="checkbox" type="checkbox">
+            <label style="margin-top: 3px; font-size: 14px; color: white;" for="checkbox">запомнить меня</label>
+
+          </div>
+          
+          <button type="submit">Войти</button>
+          <a href="index.html" style="text-decoration: none; color:white;">Назад</a>
+
+        </form>
+      </div>
+    <script src="scriptreg.js"></script>
+</body>
+</html>

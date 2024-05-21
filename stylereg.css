@@ -1,0 +1,89 @@
+body {
+    background-image: url(img/backreg.jpg);
+    background-size: cover; /* Заполнение области фоном */
+    background-repeat: no-repeat; /* Предотвращение повторения фоновой картинки */
+    
+  }
+
+.form-container {
+  color: white;
+    max-width: 400px;
+  margin: 150px auto 0; /* 100px - отступ сверху, auto - автоматическое центрирование по горизонтали, 0 - отступ снизу */
+  padding: 20px;
+
+  border-radius: 5px;
+  background-color: #3f66cabd; /* Цвет фона формы */
+    border: none;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background: #00164f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  button:hover{
+    background-color: #A6B9EB;
+    color: black;
+  }
+  input{
+    background-color: #2E447C;
+    color: white;
+    transition: background-color 0.3s, color 0.3s; 
+    border: none;
+    border-radius:5px ;
+  }
+  input:active{
+    background-color: #A6B9EB;
+    color: black;
+  }
+  input:hover{
+    background-color: #A6B9EB;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+
+  h2{
+    text-align: center;
+  }
+a{
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+  width: 95%;
+  background-color:#00164f;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+}
+a:hover{
+  background-color: #A6B9EB;
+  color: black;
+}
+.checkboxFlex{
+  margin: 10px;
+}
